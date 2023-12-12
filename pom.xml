@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>>>>>>> 2902f2629d1466b2dbd9044e336bd8a6a16617cc
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.2.0</version>
+<<<<<<< HEAD
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mail.project</groupId>
 	<artifactId>com.mail.project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>com.mail.project</name>
+=======
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.studentInfo</groupId>
+	<artifactId>studentInfo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>studentInfo</name>
+>>>>>>> 2902f2629d1466b2dbd9044e336bd8a6a16617cc
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
@@ -20,14 +33,27 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 
 		<dependency>
+=======
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+>>>>>>> 2902f2629d1466b2dbd9044e336bd8a6a16617cc
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -44,6 +70,8 @@
 			<artifactId>spring-context-support</artifactId>
 		</dependency>
 
+=======
+>>>>>>> 2902f2629d1466b2dbd9044e336bd8a6a16617cc
 	</dependencies>
 
 	<build>

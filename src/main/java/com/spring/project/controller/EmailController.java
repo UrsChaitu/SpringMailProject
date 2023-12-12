@@ -14,7 +14,7 @@ public class EmailController {
 
     @GetMapping("/send-email")
     public String sendEmail() {
-        String recipientEmail = "nishikanthjena@gmail.com";
+        String recipientEmail = "recipientmail@gmail.com";
         String emailSubject = "Hello";
         String emailBody = "This is a test email from Spring Boot";
 
